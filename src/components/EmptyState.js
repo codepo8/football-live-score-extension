@@ -23,7 +23,7 @@ const EmptyStateText = styled.span`
 const EmptyState = () => (
 	<Wrapper>
 		<EmptyStateIcon role="img" ariaLabel="frowning face">☹️</EmptyStateIcon>
-		<EmptyStateText>مسابقه ای درحال برگزاری نمی‌باشد.</EmptyStateText>
+		<EmptyStateText>There are currently no matches on</EmptyStateText>
 	</Wrapper>
 );
 
